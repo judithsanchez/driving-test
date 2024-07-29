@@ -1,0 +1,89 @@
+{
+	"questions": [
+		{
+			"prompt": "Vía pública utilizada para el tránsito interurbano de vehículos con niveles adecuados de seguridad y comodidad.",
+			"correct": "Carreteras",
+			"options": ["Autopistas", "Calles", "Avenidas"],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"prompt": "Preferencia en la circulación que tiene un vehículo o peatón con respecto a los demás vehículos o peatones.",
+			"correct": "Derecho de vías",
+			"options": [
+				"Prioridad de paso",
+				"Preferencia vial",
+				"Circulación preferente"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"prompt": "Carril destinado para el uso único de un determinado tipo de vehículo y que muestra una separación física longitudinal a través de elementos fijos, tales como barreras o cordones o por medio de señalización especial. Puede mantener cruces a nivel con otras vías, así como con los peatones.",
+			"correct": "Carril exclusivo",
+			"options": ["Carril preferente", "Vía reservada", "Carril segregado"],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"prompt": "Acción de ubicar un vehículo transitoriamente en el área destinada para este fin.",
+			"correct": "Estacionar",
+			"options": ["Aparcar", "Detener", "Parar"],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"prompt": "Sobrepasar el número de pasajeros establecidos por el fabricante del vehículo como la capacidad máxima.",
+			"correct": "Exceso de pasajeros",
+			"options": ["Sobrecarga", "Capacidad excedida", "Sobrecupo"],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"prompt": "Parte de la estructura de la vía de circulación contigua a la calzada, que sirve de protección a los efectos de erosión, utilizada eventualmente para la parada de vehículos en situaciones fortuitas o casos de emergencia y para la circulación de peatones.",
+			"correct": "Hombro",
+			"options": ["Arcén", "Berma", "Acotamiento"],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"prompt": "Documento de carácter personal e intransferible, expedido por la Autoridad del Tránsito y Transporte Terrestre que autoriza a una persona a conducir vehículos en el territorio nacional.",
+			"correct": "Licencia de conducir",
+			"options": [
+				"Permiso de conducción",
+				"Carnet de manejo",
+				"Credencial de conductor"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"prompt": "Señales pintadas sobre la vía de circulación o con elementos adyacentes a ella para indicar, advertir o guiar el tránsito.",
+			"correct": "Marcas de pavimento",
+			"options": [
+				"Señalización horizontal",
+				"Demarcación vial",
+				"Líneas de tránsito"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"prompt": "Persona que no siendo el conductor ocupa un lugar dentro del vehículo.",
+			"correct": "Pasajero",
+			"options": ["Ocupante", "Acompañante", "Viajero"],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		}
+	],
+	"attempts": []
+}
