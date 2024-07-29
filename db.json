@@ -92,6 +92,1310 @@
 			"streak": false,
 			"correct_answer": 0,
 			"incorrect_answer": 0
+		},
+		{
+			"id": "j7k8l9m0",
+			"prompt": "Zona de la calzada delimitada por dispositivos o marcas pintadas sobre la vía para que los peatones crucen o atraviesen la vía.",
+			"correct": "Paso peatonal a nivel",
+			"options": ["Cruce peatonal", "Zona de cruce", "Senda peatonal"],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "n1o2p3q4",
+			"prompt": "Persona qué transita a pie. También se consideran como peatones las personas discapacitadas o niños que transiten en aparatos especiales manejados por ellos o por otra persona.",
+			"correct": "Peaton",
+			"options": ["Transeúnte", "Caminante", "Viandante"],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "r5s6t7u8",
+			"prompt": "Prioridad o preferencia que tiene una vía o vehículo con respecto a otras vías u otros vehículos.",
+			"correct": "Prelación",
+			"options": ["Preferencia", "Prioridad", "Precedencia"],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "v9w0x1y2",
+			"prompt": "Paso preferencial de vehículos con relación al uso de las vías que comprende los vehículos de funcionarios autorizados, Cuerpo de Bomberos, Policía Nacional, ambulancias y otros casos de emergencia, ademas cualquier otro que establezca la ATTT.",
+			"correct": "Prioridad de paso",
+			"options": ["Paso preferente", "Derecho de vía", "Preferencia vial"],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "z3a4b5c6",
+			"prompt": "Maniobra mediante la cual un vehículo adelanta a otro que lo antecede en el mismo carril de una calzada.",
+			"correct": "Rebasar",
+			"options": ["Adelantar", "Sobrepasar", "Pasar"],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "d7e8f9g0",
+			"prompt": "Circulación de personas, animales o vehículos por una vía pública o privada abierta al público.",
+			"correct": "Tránsito",
+			"options": ["Circulación", "Movimiento", "Flujo"],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "h1i2j3k4",
+			"prompt": "Elemento reflector de seguridad  que se coloca a una distancia apropiada de un vehículo estacionado en situaciones fortuitas o de emergencias en los carriles o áreas de circulación vial, y que advierte del peligro a los demás conductores.",
+			"correct": "Triángulo de seguridad",
+			"options": [
+				"Cono reflectivo",
+				"Baliza de emergencia",
+				"Señal de advertencia"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "l5m6n7o8",
+			"prompt": "Persona que circula por algún tramo de la red vial como usuario de un medio de transporte, motorizado o no.",
+			"correct": "Usuario de la via pública",
+			"options": ["Conductor", "Transeúnte", "Viajero"],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "p9q0r1s2",
+			"prompt": "Zona o terreno de uso público destinado para el tránsito libre de vehículos, peatones y/o animales, sin más limitaciones que la establecidas por el presente Reglamento.",
+			"correct": "Vía Pública",
+			"options": ["Calle", "Carretera", "Camino"],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "t3u4v5w6",
+			"prompt": "Vehículo destinado al transporte de turistas debidamente registrado e identificado como tal, con las normas y características que se exijan para esta actividad.",
+			"correct": "Vehículo de turismo",
+			"options": [
+				"Autobús turístico",
+				"Coche de alquiler",
+				"Transporte de pasajeros"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "x7y8z9a0",
+			"prompt": "Los vehículos matriculados de otros países que ingresen al territorio de la República de Panamá podrán transitar libremente siempre y cuando cuenten con un permiso de circulación expedido por la ATTT por un periodo de;",
+			"correct": "90 dias",
+			"options": ["60 dias", "120 dias", "30 dias"],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "b1c2d3e4",
+			"prompt": "Los vehículos a motor deben portar el siguiente equipo de seguridad en las vías de circulación:",
+			"correct": "Triángulo reflectivo de seguridad, Herramientas básicas, llanta de repuesto, elevador mecánico, herramienta para reemplazo de llantas.",
+			"options": [
+				"Solo triángulo reflectivo de seguridad",
+				"Triángulo reflectivo y extintor",
+				"Herramientas básicas y llanta de repuesto"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "f5g6h7i8",
+			"prompt": "Es necesario que el vehículo se encuentre en condiciones adecuadas de seguridad, ya sea para uso particular, al servicio del Estado, para el transporte público de pasajeros o de carga. Las condiciones de seguridad serán exigidas sobre los siguientes sistemas:",
+			"correct": "Todas las anteriores",
+			"options": [
+				"Chasis, mecánico, emisión de gases, frenos, llantas, luces",
+				"Dirección, bocinas preventivas, carrocería interna y externa",
+				"Sistema eléctrico, amortiguación"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "j9k0l1m2",
+			"prompt": "Donde se inscribirá la propiedad de todos los vehículos a motor y unidades de arrastre que circulan por caminos, calles o vías particulares destinadas al uso público en todo el territorio nacional.",
+			"correct": "En la Sección Nacional del Registro Único de Vehículos Motorizados",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "n3o4p5q6",
+			"prompt": "Prohibiciones en relación con los vehículos en general.",
+			"correct": "A y B son correctas",
+			"options": [
+				"No portar equipo de seguridad, colocar accesorios en los rines a una distancia que sobresalga de los guardafangos del vehículo",
+				"Derramar combustible o sustancias tóxicas que afecten el ambiente en la via pública, estar en mal estado mecánico o de carrocería",
+				"No portar licencia de conducir"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "r7s8t9u0",
+			"prompt": "Para transitar en las vías públicas, todo vehículo requiere una placa única y definitiva suministrada por;",
+			"correct": "El Municipio donde se encuentre inscrito",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "v1w2x3y4",
+			"prompt": "Todos los vehículos deben mantener encendidas las luces exteriores a partir de;",
+			"correct": "De 6:00 am a 6:00 pm o cuando las condiciones de visibilidad sean adversas",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "z5a6b7c8",
+			"prompt": "Solamente podrán utilizar las señales luminosas especiales, sean rotativas o de destello, los vehículos que a continuación se detallan:",
+			"correct": "Todas las anteriores son correctas",
+			"options": [
+				"De color rojo, los que estén al servicio de la Presidencia de la República, de la Policía Nacional, la Policía Técnica Judicial, la Cruz Roja Nacional y las ambulancias",
+				"De color azul, los pertenecientes a las instituciones autorizadas por la Autoridad del Tránsito y Transporte Terrestre, los utilizados por el Sistema Nacional de Protección Civil y al Cuerpo de Bomberos de la República de Panamá",
+				"De color rojo y azul, los que se encuentren al servicio de la Policía Nacional y de la Autoridad del Tránsito y Transporte Terrestre"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "d9e0f1g2",
+			"prompt": "Es obligatorio para todo conductor reemplazar el sistema de luces altas por el sistema de luces bajas siempre que se encuentre con otro vehículo",
+			"correct": "Este reemplazo se hará a una distancia no menor de 150 metros en carreteras y autopistas y no menos de 75 metros, en calles y avenidas",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "h3i4j5k6",
+			"prompt": "Es prohibido respecto al sistema de iluminación de los vehículos:",
+			"correct": "Todas son correctas",
+			"options": [
+				"Reemplazar o agregar a la iluminación original del vehículo, mecanismos de destello o cualquier otro dispositivo de iluminación encandilante",
+				"Utilizar luces de neón de cualquier color en el exterior del vehículo, al igual que cualquier otro tipo de luz no especificado en el Reglamento",
+				"Usar el sistema de luces altas en zonas pobladas, excepto en los casos previstos en el Artículo 52"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "l7m8n9o0",
+			"prompt": "Los peatones están obligados a obedecer las indicaciones de la autoridad competente y las disposiciones para el control del transitó establecidas en el presente Reglamento y gozarán de las prioridades de paso para peatones que le sean concedidas.",
+			"correct": "Artículo 100 reglamento de tránsito",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "p1q2r3s4",
+			"prompt": "Los peatones caminarán obligatoriamente por:",
+			"correct": "Las aceras, veredas, pasos elevados y demás facilidades habilitados para su uso",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "t5u6v7w8",
+			"prompt": "En caso de no existir aceras, lo harán:",
+			"correct": "Del lado izquierdo de la vía con el sentido del tránsito de vehículos de frente",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "x9y0z1a2",
+			"prompt": "Los peatones que caminen por la vía pública están en la obligación de:",
+			"correct": "Acatar las órdenes y observar las señales que con respecto a la circulación de vehículos en general, imparta la ATTT",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "b3c4d5e6",
+			"prompt": "Antes de cruzar la vía, todo peatón esperará:",
+			"correct": "Todas las anteriores",
+			"options": [
+				"El momento en que no exista tránsito vehicular",
+				"Que éste se halle detenido",
+				"Que la distancia de los vehículos más próximos sea tal que pueda realizar el cruce a paso normal"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "f7g8h9i0",
+			"prompt": "¿Que peatones deben hacerse acompañar de una persona mayor de 16 años?",
+			"correct": "Los menores de 12 años",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "j1k2l3m4",
+			"prompt": "Es prohibido para los peatones:",
+			"correct": "Todas las anteriores",
+			"options": [
+				"Caminar en el mismo sentido del tránsito vehicular cuando no existan aceras, veredas y demás facilidades habilitadas para su uso",
+				"Cruzar una vía sin utilizar las líneas de seguridad, semáforos peatonales o pasos elevados peatonales existentes",
+				"Cruzar una intersección diagonalmente"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "n5o6p7q8",
+			"prompt": "Detenerse en las aceras y formar tumultos que impidan la circulación es una infracción de:",
+			"correct": "Peatones",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "r9s0t1u2",
+			"prompt": "La circulación de peatones en contravención de cualquiera de las disposiciones del reglamento de tránsito",
+			"correct": "Lo hará responsable de cualquier daño o perjuicio que cause",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "v3w4x5y6",
+			"prompt": "Los peatones que sean sorprendidos violando estas disposiciones.",
+			"correct": "Serán conducidos a la autoridad del área jurisdiccional para que le imponga la sanción correspondiente",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "z7a8b9c0",
+			"prompt": "Quienes podrán obtener una licencia de conducir vehículos, siempre que cumplan con los requisitos establecidos en el presente Reglamento",
+			"correct": "Los panameños y extranjeros mayores de 18 años",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "d1e2f3g4",
+			"prompt": "Los extranjeros que ingresen a la República de Panamá en calidad de turistas solamente podrán conducir vehículos con licencia vigente de su país de origen por un período de:",
+			"correct": "90 días",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "h5i6j7k8",
+			"prompt": "Los extranjeros que ingresen a la República de Panamá en calidad de turistas solamente podrán conducir vehículos tipo:",
+			"correct": "Particulares",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "l9m0n1o2",
+			"prompt": "Los diferentes tipos de licencias de conducir que se expiden en la República de Panamá según el artículo 112 son:",
+			"correct": "A,B,C,D,E1,E2,E3,F,G,H,I,J",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "p3q4r5s6",
+			"prompt": "Para renovar la licencia de conducir de un conductor mayor de 70 años, además de cumplir con los requisitos establecidos en el presente Reglamento, deberá presentar.",
+			"correct": "Una certificación de un médico con especialización en geriatría o medicina interna",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "t7u8v9w0",
+			"prompt": "Según el artículo 132 de la ley de tránsito la licencia de conducir se debe:",
+			"correct": "Entregar",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "x1y2z3a4",
+			"prompt": "Según el artículo 125 de la ley de tránsito a quien se le debe entregar la licencia de conducir?",
+			"correct": "A y B son correctas",
+			"options": [
+				"Al policía",
+				"A los inspectores de la ATTT",
+				"A y B son correctas",
+				"Ninguna de las anteriores"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "b5c6d7e8",
+			"prompt": "La licencia de conducir se cancelará:",
+			"correct": "Todas las anteriores",
+			"options": [
+				"Por disposición de la ATTT basada en la imposibilidad permanente física o mental para conducir, diagnosticado en un certificado médico emitido por el Instituto de Medicina Legal",
+				"Por decisión judicial o fallo condenatorio",
+				"Por reincidencia al conducir en estado de embriaguez comprobada o intoxicación por estupefacientes determinado por la autoridad competente, con el agravante de causar accidentes de tránsito",
+				"Todas las anteriores"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "f9g0h1i2",
+			"prompt": "Artículo 122. Todo conductor es responsable del vehículo que conduce y está en la obligación de:",
+			"correct": "A y B son correctas de acuerdo con el artículo 122",
+			"options": [
+				"Velar por la seguridad de sus pasajeros y de la carga que transporta",
+				"Por la seguridad de los peatones",
+				"No dañar el vehículo",
+				"A y B son correctas de acuerdo con el artículo 122"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "j3k4l5m6",
+			"prompt": "Artículo 125. Todo conductor de vehículo está en la obligación de:",
+			"correct": "Portar su licencia de conducir",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "n7o8p9q0",
+			"prompt": "El conductor que atropelle o lesione con su vehículo a cualquier persona debe:",
+			"correct": "Todas las anteriores",
+			"options": [
+				"Poner en conocimiento del hecho a servicios de emergencia",
+				"Prestar primeros auxilios según sus conocimientos",
+				"Trasladarlo al centro de atención médica más cercano, siempre y cuando no represente un riesgo para el afectado al momento de su traslado",
+				"Todas las anteriores"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "r1s2t3u4",
+			"prompt": "No podrán viajar en el asiento delantero del vehículo, excepto en vehículos de una sola cabina",
+			"correct": "Los pasajeros menores de 5 años",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "v5w6x7y8",
+			"prompt": "Obligaciones de los conductores:",
+			"correct": "En los vehículos a motor, excepto motocicletas, usar el cinturón de seguridad y exigir a sus pasajeros su uso como medida de seguridad; se exceptúan los pasajeros de vehículos de transporte colectivo, colegial y de turismo",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "z9a0b1c2",
+			"prompt": "Es prohibido a los conductores de vehículos:",
+			"correct": "Todas las anteriores",
+			"options": [
+				"Negarse a entregar la licencia de conducir cuando es requerido por las autoridades competentes",
+				"Portar la licencia de conducir no adecuada al vehículo",
+				"Cobrar deliberadamente a pasajeros en vehículos particulares, comerciales y de transporte gratuito de empleados",
+				"Todas las anteriores"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "d3e4f5g6",
+			"prompt": "Son prohibiciones de los conductores",
+			"correct": "Todas las anteriores",
+			"options": [
+				"Conducir con volumen excesivo en el equipo de sonido",
+				"Hablar por teléfono mientras conduce",
+				"Reparar vehículos en la vía pública",
+				"Hacer el cambio de llantas en la vía pública sin tomar las medidas de precaución y seguridad",
+				"Derramar, arrojar o verter desechos en la vía pública",
+				"Todas las anteriores"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "h7i8j9k0",
+			"prompt": "Los conductores de vehículos de transporte colegial deben:",
+			"correct": "Garantizar la integridad física de los estudiantes que transportan",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "l1m2n3o4",
+			"prompt": "Cobrar deliberadamente a pasajeros en vehículos particulares, comerciales y de transporte gratuito de empleados es:",
+			"correct": "Una prohibición",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "p5q6r7s8",
+			"prompt": "Todo conductor de un vehículo que se utilice para el transporte de cargas peligrosas deben portar",
+			"correct": "El Permiso Previo de Circulación y la hoja de seguridad del material transportado",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "t9u0v1w2",
+			"prompt": "El Alcohol es:",
+			"correct": "Una droga psico depresora de consumo legal",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "x3y4z5a6",
+			"prompt": "El estado de embriaguez y la intoxicación por estupefacientes se definen como:",
+			"correct": "La pérdida transitoria o manifiesta disminución de las facultades físicas y mentales normales, causadas por el consumo de bebidas alcohólicas o estupefacientes, respectivamente, y que disminuye las condiciones físicas y mentales normales para conducir cualquier tipo de vehículo",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "b7c8d9e0",
+			"prompt": "El estado de embriaguez y la intoxicación por estupefacientes se determinará por cualquiera de los siguientes exámenes y pruebas:",
+			"correct": "Todas las anteriores",
+			"options": [
+				"Análisis de aires expírales (estado de embriaguez)",
+				"Pruebas de estado físico",
+				"Médicas",
+				"Todas las anteriores"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "f1g2h3i4",
+			"prompt": "Están en la obligación de someterse a las pruebas para determinar el grado de intoxicación por alcohol:",
+			"correct": "A y B son correctas",
+			"options": [
+				"En casos de peatones involucrados en accidentes por atropello",
+				"Todo conductor de vehículo a motor",
+				"A y B son correctas",
+				"Ninguna de las anteriores"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "j5k6l7m8",
+			"prompt": "La conducta del conductor al peatón, de negarse a someterse a cualquiera de las pruebas que determinan el estado de embriaguez:",
+			"correct": "Constituye grave indicio en su contra",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "n9o0p1q2",
+			"prompt": "Es prohibido a los peatones y conductores de vehículos:",
+			"correct": "Todas las anteriores",
+			"options": [
+				"Caminar o conducir con aliento alcohólico o en estado de embriaguez comprobada",
+				"Caminar o conducir bajo los efectos de estupefacientes",
+				"Todas las anteriores",
+				"Ninguna de las anteriores"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "r3s4t5u6",
+			"prompt": "Los niveles de intoxicación que se determinan por análisis de aires expírales corresponden a los siguientes valores:",
+			"correct": "Todas las anteriores",
+			"options": [
+				"Nivel de Tolerancia 5% a 24% microgramos x decilitros",
+				"Aliento alcohólico 25% a 40% microgramos x decilitros",
+				"Embriaguez comprobada 41% en adelante microgramos x decilitros",
+				"Todas las anteriores"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "v7w8x9y0",
+			"prompt": "Cuando se procede a sancionar con multa y retención del vehículo",
+			"correct": "Embriaguez comprobada",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "z1a2b3c4",
+			"prompt": "Cuando el conductor sea sorprendido en estado de embriaguez comprobada o intoxicación por estupefacientes, será sancionado:",
+			"correct": "De acuerdo con las reincidencias registradas en su historial",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "d5e6f7g8",
+			"prompt": "Por cuanto tiempo se suspende la licencia de conducir cuando sobrepasa los 25 microgramos por decilitro en análisis de aire por primera vez será:",
+			"correct": "3 meses",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "h9i0j1k2",
+			"prompt": "Artículo 144. Los conductores de vehículos están obligados.",
+			"correct": "Todas las anteriores",
+			"options": [
+				"Moderar la marcha y a detenerla en donde la autoridad competente lo ordene",
+				"De acuerdo con las circunstancias del tránsito de la vía, de la visibilidad de los propios vehículos o peatones",
+				"Deberá conducir prudentemente para evitar posibles accidentes o perjuicios a terceras personas",
+				"Todas las anteriores"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "l3m4n5o6",
+			"prompt": "Antes de iniciar la marcha, desviarse de una línea recta, retroceder, pasar a otro vehículo, entrar o cruzar en una vía o atravesar una vía férrea, el conductor debe:",
+			"correct": "El conductor debe cerciorarse de que tal maniobra puede hacerla sin peligro",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "p7q8r9s0",
+			"prompt": "En las autopistas, además de lo establecido para las vías de 2 o más carriles, rigen las siguientes reglas:",
+			"correct": "Todas las anteriores",
+			"options": [
+				"El carril izquierdo o de velocidad será utilizado sólo para rebasar a otro vehículo",
+				"No pueden transitar peatones, vehículos de tracción animal ni bicicletas",
+				"No se puede estacionar ni detener el vehículo para el ascenso o descenso de pasajeros ni efectuar carga y descarga de mercancías, excepto en aquellos lugares especialmente construidos para ello, o por desperfectos mecánicos",
+				"Todas las anteriores"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "t1u2v3w4",
+			"prompt": "El tránsito de bicicletas se realizará según las siguientes reglas:",
+			"correct": "Transitar lo más cerca posible del borde derecho de la vía, tomando las debidas precauciones cuando pase un vehículo detenido o que avance en su mismo sentido",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "x5y6z7a8",
+			"prompt": "En carreteras o autopistas, los triciclos y las motocicletas que transiten en grupos lo harán:",
+			"correct": "En forma de Z",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "b9c0d1e2",
+			"prompt": "Para efectuar maniobras de giro y de cambio de carril es obligatorio:",
+			"correct": "Utilizar las luces direccionales o en su defecto, señales manuales determinadas",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "f3g4h5i6",
+			"prompt": "Al rebasar otro vehículo, todo conductor deberá hacerlo:",
+			"correct": "Por la izquierda",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "j7k8l9m0",
+			"prompt": "Reglas para el rebasamiento:",
+			"correct": "Todas las anteriores",
+			"options": [
+				"El que rebase debe constatar previamente que a su izquierda la vía esté libre en una distancia suficiente para evitar todo riesgo, y que ningún conductor que lo siga, lo esté a su vez rebasando",
+				"Debe tener la visibilidad y visual suficiente, y no iniciar la maniobra si se aproxima a una bifurcación, encrucijada, curva, puente, cima, pendiente o lugar peligroso",
+				"Todas las anteriores",
+				"Ninguna de las anteriores"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "n1o2p3q4",
+			"prompt": "Tienen prioridad de paso en las vías de circulación:",
+			"correct": "Todas las anteriores",
+			"options": [
+				"El vehículo en que viaja el presidente de la República, vicepresidentes y Ministros de Estado",
+				"Los vehículos de la Policía Nacional, del Cuerpo de Bomberos y del Sistema Nacional de Protección Civil, en caso de emergencia",
+				"Las ambulancias u otros vehículos de socorro, cuando atiendan un llamado de emergencia o transporten enfermos o heridos a centros de atención médica",
+				"Todas las anteriores"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "r5s6t7u8",
+			"prompt": "Las vías públicas son para uso exclusivo:",
+			"correct": "Del flujo vehicular",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "v9w0x1y2",
+			"prompt": "En zonas distintas a las rurales, Solamente se podrán remolcar vehículos por medio de:",
+			"correct": "Una grúa",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "z3a4b5c6",
+			"prompt": "Es prohibido respecto a las normas generales de circulación:",
+			"correct": "Todas las anteriores",
+			"options": [
+				"Frenar bruscamente o disminuir arbitraria y repentinamente la velocidad, realizar movimientos zigzagueantes o maniobras intempestivas",
+				"Conducir en vía contraria",
+				"Tránsito de equipo pesado en áreas residenciales",
+				"Todas las anteriores"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "d7e8f9g0",
+			"prompt": "Las señales viales de tránsito se clasifican en:",
+			"correct": "A y B son correctas",
+			"options": [
+				"Preventivas, Reglamentarias",
+				"Informativas",
+				"A y B son correctas",
+				"Ninguna de las anteriores"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "h1i2j3k4",
+			"prompt": "Las marcas pintadas sobre las vías:",
+			"correct": "Se usan para guiar y advertir a los conductores; pueden ser pintadas en color amarillo o blanco",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "l5m6n7o8",
+			"prompt": "En las vías públicas reguladas por semáforos, se deberán cumplir las indicaciones:",
+			"correct": "Todas las anteriores",
+			"options": [
+				"Avanzar con luz verde si la intersección esta despejada",
+				"Con luz amarilla, prepararse para detenerse porque la luz cambiará a roja",
+				"Con la flecha verde, avanzar si la vía esta despejada en la dirección de la flecha y si está en el carril adecuado para hacerlo",
+				"Todas las anteriores"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "p9q0r1s2",
+			"prompt": "Cuando el tránsito vehicular sea dirigido por un inspector de tránsito de la Policía Nacional o inspector de la ATTT debidamente capacitado, los conductores deberán:",
+			"correct": "Obedecer sus indicaciones por encima de la señalización existente",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "t3u4v5w6",
+			"prompt": "Es prohibido respecto a los dispositivos para el control del tránsito:",
+			"correct": "Todas las anteriores",
+			"options": [
+				"No hacer el alto en las intersecciones donde esté indicado",
+				"Realizar giros prohibidos por señales viales o marcas en la vía",
+				"Detenerse sobre las líneas de no pare o del paso peatonal a nivel",
+				"Avanzar con la luz roja en el semáforo",
+				"Todas las anteriores"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "x7y8z9a0",
+			"prompt": "El estacionamiento de bicicletas se hará:",
+			"correct": "Fuera de la superficie de rodamiento",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "b1c2d3e4",
+			"prompt": "Para evitar causar accidentes u obstruir el normal tránsito vehicular en la vía pública o peatonal en las aceras, los conductores no estacionarán:",
+			"correct": "Todas las anteriores",
+			"options": [
+				"Vehículos a mano contraria del sentido de circulación",
+				"Vehículos sin luces de seguridad en la noche en zonas con poca iluminación o rurales",
+				"Autobuses, camiones y unidades de arrastre en la vía pública o en el hombro",
+				"Todas las anteriores"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "f5g6h7i8",
+			"prompt": "Es prohibido el estacionamiento de vehículos en los siguientes lugares:",
+			"correct": "Todas las anteriores",
+			"options": [
+				"A menos de 5 metros de un hidratante",
+				"A menos de 10 metros de una señal vial de \"Alto\"",
+				"A menos de 5 metros de una esquina",
+				"A menos de 9 metros de otro vehículo que se encuentre estacionado en el lado opuesto",
+				"Paralelo a otro que esté estacionado",
+				"Todas las anteriores"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "j9k0l1m2",
+			"prompt": "El conductor debe transitar siempre teniendo en cuenta:",
+			"correct": "Todas las anteriores",
+			"options": [
+				"La velocidad, condiciones y diseño de la vía",
+				"Los dispositivos para el control del tránsito, la visibilidad existente",
+				"Manteniendo el dominio de su vehículo para no entorpecer el tránsito vehicular",
+				"De no ser así deberá abandonar la vía o detener la marcha del vehículo sin obstruir el tránsito",
+				"Todas las anteriores"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "n3o4p5q6",
+			"prompt": "Los límites de velocidad quedan establecidos de la siguiente manera:",
+			"correct": "A y B son correctas",
+			"options": [
+				"En calles o áreas residenciales 40km/h, en avenidas 60km/h",
+				"En proximidad de establecimientos escolares y deportivos de gran concurrencia de personas, la velocidad precautoria nunca será superior a 30km/h durante las horas hábiles",
+				"A y B son correctas",
+				"Ninguna de las anteriores"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "r7s8t9u0",
+			"prompt": "En carreteras multicarriles en zonas urbanas la velocidad será:",
+			"correct": "Todas las anteriores",
+			"options": [
+				"El carril del extremo izquierdo del conductor: 80km/h",
+				"El carril central: 60km/h",
+				"El carril derecho: 50km/h",
+				"Todas las anteriores",
+				"Ninguna de las anteriores"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "v1w2x3y4",
+			"prompt": "Bajando una pendiente se debe:",
+			"correct": "Controlar la velocidad únicamente con el motor del vehículo",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "z5a6b7c8",
+			"prompt": "Los conductores deberán disminuir la velocidad en los siguientes casos:",
+			"correct": "Todas las anteriores",
+			"options": [
+				"En los lugares señalados como zona escolar, parques o balnearios, recintos policiales, iglesias, centros de atención médica y cuando se presentan desfiles o concentración de personas",
+				"Cuando conduzcan próximo a las aceras y zonas de seguridad",
+				"Cuando se aproximen a las líneas de seguridad",
+				"Todas las anteriores",
+				"Solo A y B son correctas"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "d9e0f1g2",
+			"prompt": "El tránsito por las vías públicas de caballería, ganado en manada o rebaños se permitirá únicamente cuando:",
+			"correct": "Cuando no existan otras vías utilizables que permitan realizar esta actividad",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "h3i4j5k6",
+			"prompt": "Para los efectos de la circulación de los animales conducidos en las vías públicas se observarán las siguientes reglas:",
+			"correct": "A y B son correctas",
+			"options": [
+				"Entre las personas que guíen habrá por lo menos un mayor de 14 años, que sea responsable del rebaño",
+				"Cuando animales en rebaños o manadas transiten de noche por las vías públicas insuficientemente iluminadas, sus conductores llevarán suficientes artefactos luminosos para precisar su ubicación o dimensiones, que estarán situados del lado opuesto al hombro de la carretera",
+				"A y B son correctas",
+				"Ninguna de las anteriores"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "l7m8n9o0",
+			"prompt": "Los conductores de vehículos:",
+			"correct": "No serán responsables de los daños que sufran los animales que se hallen en las vías públicas, incluyendo la muerte de éstos",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "p1q2r3s4",
+			"prompt": "Quien será responsable de las infracciones que puedan cometerse y de los daños y perjuicios causado a terceros, sin perjuicio de las sanciones de naturaleza administrativa que correspondan:",
+			"correct": "El dueño del animal",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "t5u6v7w8",
+			"prompt": "Las cabalgaduras deberán transitar:",
+			"correct": "Por los hombros",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "x9y0z1a2",
+			"prompt": "Prohibiciones en la conducción de animales por las vías públicas:",
+			"correct": "Todas las anteriores",
+			"options": [
+				"A los menores de 14 años, dirigir los rebaños",
+				"Guiar animales sin las medidas de seguridad correspondientes",
+				"Cruzar a los animales por los lugares distintos a los destinados para este fin",
+				"Cabalgar de noche sin las señales luminosas suficientes",
+				"Realizar carreras de caballo en lugares poblados",
+				"Todas las anteriores"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "b3c4d5e6",
+			"prompt": "Para transitar por caminos y calles, las cabalgaduras deben estar provistas de:",
+			"correct": "Herraduras",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "f7g8h9i0",
+			"prompt": "Las personas que guíen animales en las vías públicas y que sean sorprendidas violando lo dispuesto en las prohibiciones:",
+			"correct": "Serán conducidas a la autoridad del área jurisdiccional para que le imponga la sanción correspondiente",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "j1k2l3m4",
+			"prompt": "Las caballerías, cualquier clase de ganado y los rebaños, deben:",
+			"correct": "A y B son correctas",
+			"options": [
+				"Cruzar las vías por los sitios debidamente señalados para este fin",
+				"Por los particularmente establecidos para el servicio de propiedades privadas",
+				"A y B son correctas",
+				"Ninguna de las anteriores"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "n5o6p7q8",
+			"prompt": "Las personas que guíen ganado bravo deben:",
+			"correct": "Transportarlos en un vehículo automotor",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "r9s0t1u2",
+			"prompt": "La aplicación y ejecución del presente reglamento en todas sus partes compete a:",
+			"correct": "La Autoridad de Tránsito y Transporte Terrestre",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "v3w4x5y6",
+			"prompt": "Las acciones u omisiones contrarias a este Reglamento tendrán el carácter de:",
+			"correct": "Infracciones de tránsito",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "z7a8b9c0",
+			"prompt": "Las infracciones de tránsito serán sancionadas con:",
+			"correct": "Amonestación o multa y la asignación de puntos en la forma prevista en el presente Reglamento",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "d1e2f3g4",
+			"prompt": "Cuando el infractor incurra en varias faltas a la vez se le aplicará",
+			"correct": "Una sanción por cada falta cometida",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "h5i6j7k8",
+			"prompt": "Están facultados para imponer boletas por infracciones las siguientes personas:",
+			"correct": "Todas las anteriores",
+			"options": [
+				"Los inspectores de la A.T.T.T",
+				"Los directores Provinciales de la A.T.T.T",
+				"Los inspectores de operaciones de la policía nacional",
+				"Todas las anteriores"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "l9m0n1o2",
+			"prompt": "Contra la citación por infracción solo cabe:",
+			"correct": "Recurso de reconsideración ante los jueces de tránsito en su jurisdicción y ante el director de la A.T.T.T",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "p3q4r5s6",
+			"prompt": "En las infracciones que son sancionadas con agravantes y reincidencias:",
+			"correct": "Los Jueces de Tránsito dentro de la jurisdicción y el Director General de la A.T.T.T, tendrán en cuenta la gravedad de la falta cometida y el historial del conductor para imponer multas en orden ascendente",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "t7u8v9w0",
+			"prompt": "Será responsable de cualquier infracción de tránsito que incurra al manejar un vehículo:",
+			"correct": "Todo conductor",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "x1y2z3a4",
+			"prompt": "Las infracciones al reglamento de tránsito serán sancionadas con:",
+			"correct": "Todas las anteriores",
+			"options": [
+				"Multas",
+				"Amonestación",
+				"Todas las anteriores",
+				"Ninguna de las anteriores"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "b5c6d7e8",
+			"prompt": "Los procesos administrativos sobre accidentes de tránsito se tramitarán en:",
+			"correct": "A y B son correctas",
+			"options": [
+				"Dos instancias; la primera ante el juzgado de tránsito y la segunda instancia ante la Autoridad Municipal correspondiente",
+				"En los lugares donde no existan Juzgados de Tránsito, la primera instancia la contribuye la Autoridad Municipal y la segunda instancia la Gobernación de la Provincia",
+				"A y B son correctas",
+				"Ninguna de las anteriores"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "f9g0h1i2",
+			"prompt": "Los procesos de tránsito serán:",
+			"correct": "Orales en la primera instancia y escritos en la segunda",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "j3k4l5m6",
+			"prompt": "El accidente de tránsito es materia de conocimiento de:",
+			"correct": "De los jueces de tránsito",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "n7o8p9q0",
+			"prompt": "Todo accidente de tránsito que ocurra en vías públicas, así como en áreas de acceso público, salvo que haya fallecidos será atendido por:",
+			"correct": "El inspector de tránsito de la policía nacional",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "r1s2t3u4",
+			"prompt": "Ocurrido un accidente de tránsito, el inspector de tránsito:",
+			"correct": "Levantará un informe escrito de lo acontecido, denominado \"parte policivo\"",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "v5w6x7y8",
+			"prompt": "Cuando no se pudiere levantar el parte policivo en el lugar del accidente por fuga:",
+			"correct": "La parte que se considera afectada podrá presentar una denuncia ya sea por colisión y fuga, atropello o por cualquier daño ocasionado a la propiedad pública o privada, la cual se formalizará ante la zona policial correspondiente al lugar donde ocurra el accidente",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "z9a0b1c2",
+			"prompt": "Cuando a causa de un accidente de tránsito se produzca daño a semáforos, señales viales o infraestructuras de utilidad pública o privada:",
+			"correct": "El Juez de Tránsito que atienda la causa deberá solicitar a la entidad competente un informe sobre el costo de los daños causados y ordenará a quien resulte responsable del accidente, el pago de todos los daños ya sean bien público o privado",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "d3e4f5g6",
+			"prompt": "La audiencia se efectuará:",
+			"correct": "El día y hora señalada, con las partes que concurran",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "h7i8j9k0",
+			"prompt": "Cuando un proceso permanezca por más de 1 año sin decisión alguna en el juzgado de Tránsito por la no comparecencia de ninguna de las partes involucradas:",
+			"correct": "El Juez podrá decretar de oficio la caducidad de la instancia de dicho proceso y el archivo del expediente",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "l1m2n3o4",
+			"prompt": "Si una de las partes objetase el informe policivo levantado al momento del accidente, el Juez de Tránsito podrá, si así lo considera conveniente, ordenar de oficio o a solicitud de parte, una diligencia de:",
+			"correct": "Reconstrucción",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "p5q6r7s8",
+			"prompt": "La resolución de primera instancia preferida por el Juez de Tránsito admite recurso de:",
+			"correct": "Apelación",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "t9u0v1w2",
+			"prompt": "El recurso de apelación deberá ser interpuesto al momento de la notificación, expresando la palabra:",
+			"correct": "\"APELO\" o mediante escrito dentro de las 24 horas hábiles siguientes a la notificación que deberá ser sustentado mediante apoderado judicial",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "x3y4z5a6",
+			"prompt": "El escrito de sustentación de la apelación deberá ser presentado ante la autoridad de primera instancia:",
+			"correct": "Dentro de los 5 días hábiles, contados a partir de la notificación",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "b7c8d9e0",
+			"prompt": "Están obligados a indemnizar los daños y perjuicios ocasionados por un accidente de tránsito las siguientes personas:",
+			"correct": "Todas los anteriores",
+			"options": [
+				"Al conductor o conductores a quienes se les declare responsables del accidente",
+				"El o los propietarios de los vehículos cuyos conductores sean declarados responsables del accidente",
+				"La compañía aseguradora del vehículo cuyo conductor haya sido declarado responsable del accidente",
+				"Todas los anteriores"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "f1g2h3i4",
+			"prompt": "Los propietarios de vehículos están obligados a mantener vigente un seguro de responsabilidad civil que comprenda como mínimo:",
+			"correct": "Responsabilidad por daño a la propiedad ajena por el monto mínimo de B/.5,000.00 y Responsabilidad de lesiones corporales de B/.5,000.00 por persona y B/.10,000.00 por accidente",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "j5k6l7m8",
+			"prompt": "Al no cumplir la sanción impuesta por una infracción de tránsito en un período de 30 días, el monto de la multa gravará con un recargo adicional de:",
+			"correct": "10% del costo de la multa",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "n9o0p1q2",
+			"prompt": "Por no cumplir la sanción impuesta por una infracción cometida en un período de 30 días, la A.T.T.T procederá:",
+			"correct": "A suspender y retener la licencia de conducir. La suspensión se mantendrá hasta tanto el infractor cumpla con la totalidad de la sanción impuesta, incluyendo el monto por recargo",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "r3s4t5u6",
+			"prompt": "Infracciones del artículo 241 que no admiten recurso de reconsideración:",
+			"correct": "23, 24, 25, 26, 37 y 45",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "v7w8x9y0",
+			"prompt": "Las multas impuestas por los Juzgados de Tránsito que no sean canceladas en un término de 48 horas hábiles después de su notificación, tendrán un recargo fijo de:",
+			"correct": "B/.25.00 dólares por desacato",
+			"options": [],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
+		},
+		{
+			"id": "z1a2b3c4",
+			"prompt": "El propietario no será responsable en ningún caso de los daños causados por el vehículo del cual es dueño, cuando:",
+			"correct": "A y B son correctas",
+			"options": [
+				"Haya sido privado de su posesión como consecuencia de hurto",
+				"Cuando se encuentre depositado en talleres para reparación o custodia",
+				"A y B son correctas",
+				"Cuando lo maneje otra persona"
+			],
+			"streak": false,
+			"correct_answer": 0,
+			"incorrect_answer": 0
 		}
 	],
 	"attempts": []

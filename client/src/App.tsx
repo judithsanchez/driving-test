@@ -56,6 +56,15 @@ function App() {
 		});
 
 		await updateQuestionStats(question, isCorrect);
+
+		setQuestions(prev => {
+			const newQuestions = [...prev];
+			newQuestions[questionIndex] = {
+				...newQuestions[questionIndex],
+				streak: isCorrect,
+			};
+			return newQuestions;
+		});
 	};
 
 	return (

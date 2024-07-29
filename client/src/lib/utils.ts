@@ -39,6 +39,7 @@ export const updateQuestionStats = async (
 		incorrect_answer: isCorrect
 			? question.incorrect_answer
 			: question.incorrect_answer + 1,
+		streak: isCorrect,
 	};
 
 	try {
