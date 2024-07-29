@@ -5,8 +5,6 @@ services:
     ports:
       - '3000:3000'
     command: npm run json-server
-    volumes:
-      - ./db.json:/app/db.json
 
   vite-app:
     build: ./client

@@ -76,6 +76,7 @@ h1 {
 	grid-column: 1 / -1;
 	grid-row: 3;
 	justify-self: center;
+	font-weight: bold;
 }
 
 .check-button.incorrect {
@@ -85,4 +86,13 @@ h1 {
 .correct-answer.incorrect {
 	color: #cc0000;
 	font-weight: bold;
+}
+
+.check-button:disabled {
+	background-color: lightgray;
+	cursor: default;
+}
+
+.check-button.incorrect:disabled {
+	background-color: lightpink;
 }

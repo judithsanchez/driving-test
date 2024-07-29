@@ -1,62 +1,66 @@
 import {useState, useEffect} from 'react';
 import './App.css';
-
-interface Question {
-	id: string;
-	prompt: string;
-	correct: string;
-	options: string[];
-}
+import {Question, SelectedAnswers, Results, ShuffledOptions} from './lib/types';
+import {
+	NUM_QUESTIONS,
+	DRIVING_TEST_TITLE,
+	CHECK_ANSWER_TEXT,
+	CORRECT_ANSWER_TEXT,
+	ERROR_FETCHING_QUESTIONS,
+} from './lib/constants';
+import {
+	fetchRandomQuestions,
+	shuffleOptions,
+	initializeArrays,
+	updateQuestionStats,
+} from './lib/utils';
 
 function App() {
 	const [questions, setQuestions] = useState<Question[]>([]);
-	const [selectedAnswers, setSelectedAnswers] = useState<string[]>([]);
-	const [results, setResults] = useState<boolean[]>([]);
-	const [shuffledOptions, setShuffledOptions] = useState<string[][]>([]);
+	const [selectedAnswers, setSelectedAnswers] = useState<SelectedAnswers>([]);
+	const [results, setResults] = useState<Results>([]);
+	const [shuffledOptions, setShuffledOptions] = useState<ShuffledOptions>([]);
 
 	useEffect(() => {
-		fetchRandomQuestions();
+		const loadQuestions = async () => {
+			try {
+				const selected = await fetchRandomQuestions(NUM_QUESTIONS);
+				setQuestions(selected);
+				const [newAnswers, newResults] = initializeArrays(selected.length);
+				setSelectedAnswers(newAnswers);
+				setResults(newResults);
+				setShuffledOptions(selected.map(shuffleOptions));
+			} catch (error) {
+				console.error(ERROR_FETCHING_QUESTIONS, error);
+			}
+		};
+		loadQuestions();
 	}, []);
 
-	const fetchRandomQuestions = async () => {
-		try {
-			const response = await fetch('http://localhost:3000/questions');
-			const allQuestions = await response.json();
-			const shuffled = allQuestions.sort(() => 0.5 - Math.random());
-			const selected = shuffled.slice(0, 5);
-			setQuestions(selected);
-			setSelectedAnswers(new Array(selected.length).fill(''));
-			setResults(new Array(selected.length).fill(null));
-			setShuffledOptions(selected.map(question => shuffleOptions(question)));
-		} catch (error) {
-			console.error('Error fetching questions:', error);
-		}
-	};
-
-	const shuffleOptions = (question: Question) => {
-		return [...question.options, question.correct].sort(
-			() => 0.5 - Math.random(),
-		);
-	};
-
 	const handleAnswerChange = (questionIndex: number, answer: string) => {
-		const newAnswers = [...selectedAnswers];
-		newAnswers[questionIndex] = answer;
-		setSelectedAnswers(newAnswers);
+		setSelectedAnswers(prev => {
+			const newAnswers = [...prev];
+			newAnswers[questionIndex] = answer;
+			return newAnswers;
+		});
 	};
 
-	const checkAnswer = (questionIndex: number) => {
+	const checkAnswer = async (questionIndex: number) => {
 		const question = questions[questionIndex];
 		const selectedAnswer = selectedAnswers[questionIndex];
 		const isCorrect = selectedAnswer === question.correct;
-		const newResults = [...results];
-		newResults[questionIndex] = isCorrect;
-		setResults(newResults);
+		setResults(prev => {
+			const newResults = [...prev];
+			newResults[questionIndex] = isCorrect;
+			return newResults;
+		});
+
+		await updateQuestionStats(question, isCorrect);
 	};
 
 	return (
 		<div className="app">
-			<h1>Driving Test</h1>
+			<h1>{DRIVING_TEST_TITLE}</h1>
 			{questions.map((question, index) => (
 				<div
 					key={question.id}
@@ -91,12 +95,13 @@ function App() {
 						onClick={() => checkAnswer(index)}
 						disabled={results[index] !== null}
 					>
-						Check Answer
+						{CHECK_ANSWER_TEXT}
 					</button>
+
 					{results[index] !== null && !results[index] && (
 						<div className="result-container">
 							<p className="correct-answer incorrect">
-								Correct answer: {question.correct}
+								{CORRECT_ANSWER_TEXT} {question.correct}
 							</p>
 						</div>
 					)}
