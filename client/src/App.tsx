@@ -26,7 +26,7 @@ function App() {
 			const selected = shuffled.slice(0, 5);
 			setQuestions(selected);
 			setSelectedAnswers(new Array(selected.length).fill(''));
-			setResults(new Array(selected.length).fill(false));
+			setResults(new Array(selected.length).fill(null));
 			setShuffledOptions(selected.map(question => shuffleOptions(question)));
 		} catch (error) {
 			console.error('Error fetching questions:', error);
@@ -61,7 +61,7 @@ function App() {
 				<div
 					key={question.id}
 					className={`question-container ${
-						results[index] !== false
+						results[index] !== null
 							? results[index]
 								? 'correct'
 								: 'incorrect'
@@ -78,20 +78,24 @@ function App() {
 									value={option}
 									checked={selectedAnswers[index] === option}
 									onChange={() => handleAnswerChange(index, option)}
+									disabled={results[index] !== null}
 								/>
 								{option}
 							</label>
 						))}
 					</div>
-					<button className="check-button" onClick={() => checkAnswer(index)}>
+					<button
+						className={`check-button ${
+							results[index] === false ? 'incorrect' : ''
+						}`}
+						onClick={() => checkAnswer(index)}
+						disabled={results[index] !== null}
+					>
 						Check Answer
 					</button>
-					{results[index] !== false && (
+					{results[index] !== null && !results[index] && (
 						<div className="result-container">
-							<p className="result-text">
-								{results[index] ? 'Correct!' : 'Incorrect.'}
-							</p>
-							<p className="correct-answer">
+							<p className="correct-answer incorrect">
 								Correct answer: {question.correct}
 							</p>
 						</div>
