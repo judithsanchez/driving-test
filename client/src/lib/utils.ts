@@ -43,7 +43,7 @@ export const updateQuestionStats = async (
 	};
 
 	try {
-		const response = await fetch(`${API_URL}/${question.id}`, {
+		const response = await fetch(`${API_URL}/questions/${question.id}`, {
 			method: 'PATCH',
 			headers: {
 				'Content-Type': 'application/json',
@@ -57,6 +57,13 @@ export const updateQuestionStats = async (
 	} catch (error) {
 		console.error(ERROR_UPDATING_QUESTION, error);
 	}
+};
+
+export const generateRandomId = (): string => {
+	return (
+		Math.random().toString(36).substring(2, 15) +
+		Math.random().toString(36).substring(2, 15)
+	);
 };
 
 export const postPracticeSession = async (
@@ -78,5 +85,30 @@ export const postPracticeSession = async (
 		console.log('Session posted successfully');
 	} catch (error) {
 		console.error('Error posting practice session:', error);
+	}
+};
+
+export const updatePracticeSession = async (
+	session: PracticeSession,
+): Promise<void> => {
+	try {
+		const response = await fetch(`${API_URL}/practice_sessions/${session.id}`, {
+			method: 'PATCH',
+			headers: {
+				'Content-Type': 'application/json',
+			},
+			body: JSON.stringify({
+				correct_answers: session.correct_answers,
+				incorrect_answers: session.incorrect_answers,
+			}),
+		});
+
+		if (!response.ok) {
+			throw new Error(`HTTP error! status: ${response.status}`);
+		}
+
+		console.log('Practice session updated successfully');
+	} catch (error) {
+		console.error('Error updating practice session:', error);
 	}
 };
