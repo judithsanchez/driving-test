@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react';
+import {useState, useEffect, useRef} from 'react';
 import './App.css';
 import {Question, SelectedAnswers, Results, ShuffledOptions} from './lib/types';
 import {
@@ -13,6 +13,7 @@ import {
 	shuffleOptions,
 	initializeArrays,
 	updateQuestionStats,
+	postPracticeSession,
 } from './lib/utils';
 
 function App() {
@@ -20,6 +21,26 @@ function App() {
 	const [selectedAnswers, setSelectedAnswers] = useState<SelectedAnswers>([]);
 	const [results, setResults] = useState<Results>([]);
 	const [shuffledOptions, setShuffledOptions] = useState<ShuffledOptions>([]);
+	const [practiceSession, setPracticeSession] = useState<PracticeSession>({
+		date: new Date(),
+		correct_answers: 0,
+		incorrect_answers: 0,
+	});
+
+	const hasRunEffect = useRef(false);
+
+	useEffect(() => {
+		if (hasRunEffect.current) return;
+		hasRunEffect.current = true;
+
+		const newSession = {
+			date: new Date(),
+			correct_answers: 0,
+			incorrect_answers: 0,
+		};
+		setPracticeSession(newSession);
+		postPracticeSession(newSession);
+	}, []);
 
 	useEffect(() => {
 		const loadQuestions = async () => {
@@ -49,11 +70,22 @@ function App() {
 		const question = questions[questionIndex];
 		const selectedAnswer = selectedAnswers[questionIndex];
 		const isCorrect = selectedAnswer === question.correct;
+
 		setResults(prev => {
 			const newResults = [...prev];
 			newResults[questionIndex] = isCorrect;
 			return newResults;
 		});
+
+		setPracticeSession(prev => ({
+			...prev,
+			correct_answers: isCorrect
+				? prev.correct_answers + 1
+				: prev.correct_answers,
+			incorrect_answers: isCorrect
+				? prev.incorrect_answers
+				: prev.incorrect_answers + 1,
+		}));
 
 		await updateQuestionStats(question, isCorrect);
 

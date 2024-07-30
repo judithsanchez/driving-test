@@ -11,3 +11,9 @@ export interface Question {
 export type SelectedAnswers = string[];
 export type Results = boolean[];
 export type ShuffledOptions = string[][];
+
+export interface PracticeSession {
+	date: Date;
+	correct_answers: number;
+	incorrect_answers: number;
+}
