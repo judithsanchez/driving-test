@@ -27,8 +27,8 @@
 			"prompt": "Carril destinado para el uso único de un determinado tipo de vehículo y que muestra una separación física longitudinal a través de elementos fijos, tales como barreras o cordones o por medio de señalización especial. Puede mantener cruces a nivel con otras vías, así como con los peatones.",
 			"correct": "Carril exclusivo",
 			"options": ["Carril preferente", "Vía reservada", "Carril segregado"],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -36,8 +36,8 @@
 			"prompt": "Acción de ubicar un vehículo transitoriamente en el área destinada para este fin.",
 			"correct": "Estacionar",
 			"options": ["Aparcar", "Detener", "Parar"],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -80,8 +80,8 @@
 				"Demarcación vial",
 				"Líneas de tránsito"
 			],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -134,8 +134,8 @@
 			"prompt": "Maniobra mediante la cual un vehículo adelanta a otro que lo antecede en el mismo carril de una calzada.",
 			"correct": "Rebasar",
 			"options": ["Adelantar", "Sobrepasar", "Pasar"],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -143,8 +143,8 @@
 			"prompt": "Circulación de personas, animales o vehículos por una vía pública o privada abierta al público.",
 			"correct": "Tránsito",
 			"options": ["Circulación", "Movimiento", "Flujo"],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -187,8 +187,8 @@
 				"Coche de alquiler",
 				"Transporte de pasajeros"
 			],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -222,8 +222,8 @@
 				"Dirección, bocinas preventivas, carrocería interna y externa",
 				"Sistema eléctrico, amortiguación"
 			],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -237,7 +237,7 @@
 			],
 			"streak": false,
 			"correct_answer": 0,
-			"incorrect_answer": 0
+			"incorrect_answer": 1
 		},
 		{
 			"id": "y",
@@ -274,8 +274,8 @@
 				"De 6:00 am a 6:00 pm",
 				"Cuando las condiciones de visibilidad sean adversas"
 			],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -352,8 +352,8 @@
 				"En el centro de la vía",
 				"En cualquier lado de la vía"
 			],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -453,8 +453,8 @@
 				"Cualquier persona mayor de 16 años",
 				"Únicamente los ciudadanos panameños"
 			],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -497,8 +497,8 @@
 				"Una prueba de manejo",
 				"Un certificado de buena salud de cualquier médico"
 			],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -506,8 +506,8 @@
 			"prompt": "Según el artículo 132 de la ley de tránsito la licencia de conducir se debe:",
 			"correct": "Entregar",
 			"options": ["Renovar", "Guardar", "Mostrar"],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -610,8 +610,8 @@
 				"Portar la licencia de conducir no adecuada al vehículo",
 				"Cobrar deliberadamente a pasajeros en vehículos particulares, comerciales y de transporte gratuito de empleados"
 			],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -664,8 +664,8 @@
 				"Un extintor y un botiquín de primeros auxilios",
 				"Una lista de contactos de emergencia"
 			],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -716,8 +716,8 @@
 				"Todo conductor de vehículo a motor",
 				"Ninguna de las anteriores"
 			],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -729,8 +729,8 @@
 				"Es una falta leve",
 				"Se considera una infracción menor"
 			],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -790,8 +790,8 @@
 			"prompt": "Por cuanto tiempo se suspende la licencia de conducir cuando sobrepasa los 25 microgramos por decilitro en análisis de aire por primera vez será:",
 			"correct": "3 meses",
 			"options": ["1 mes", "6 meses", "1 año"],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -803,8 +803,8 @@
 				"De acuerdo con las circunstancias del tránsito de la vía, de la visibilidad de los propios vehículos o peatones",
 				"Deberá conducir prudentemente para evitar posibles accidentes o perjuicios a terceras personas"
 			],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -816,8 +816,8 @@
 				"Tocar la bocina para alertar a otros conductores",
 				"Ignorar las señales de tránsito y proceder con la maniobra"
 			],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -829,8 +829,8 @@
 				"No pueden transitar peatones, vehículos de tracción animal ni bicicletas",
 				"No se puede estacionar ni detener el vehículo para el ascenso o descenso de pasajeros ni efectuar carga y descarga de mercancías, excepto en aquellos lugares especialmente construidos para ello, o por desperfectos mecánicos"
 			],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -851,8 +851,8 @@
 			"prompt": "En carreteras o autopistas, los triciclos y las motocicletas que transiten en grupos lo harán:",
 			"correct": "En forma de Z",
 			"options": ["En línea recta", "En forma de V", "En cualquier formación"],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -873,8 +873,8 @@
 			"prompt": "Al rebasar otro vehículo, todo conductor deberá hacerlo:",
 			"correct": "Por la izquierda",
 			"options": ["Por la derecha", "Por cualquier lado", "No se debe rebasar"],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -886,8 +886,8 @@
 				"Debe tener la visibilidad y visual suficiente, y no iniciar la maniobra si se aproxima a una bifurcación, encrucijada, curva, puente, cima, pendiente o lugar peligroso",
 				"Ninguna de las anteriores"
 			],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -899,8 +899,8 @@
 				"Los vehículos de la Policía Nacional, del Cuerpo de Bomberos y del Sistema Nacional de Protección Civil, en caso de emergencia",
 				"Las ambulancias u otros vehículos de socorro, cuando atiendan un llamado de emergencia o transporten enfermos o heridos a centros de atención médica"
 			],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -952,8 +952,8 @@
 				"Informativas",
 				"Ninguna de las anteriores"
 			],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -966,8 +966,8 @@
 				"Pueden ser pintadas únicamente en color blanco",
 				"Pueden ser pintadas únicamente en color amarillo"
 			],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -979,8 +979,8 @@
 				"Con luz amarilla, prepararse para detenerse porque la luz cambiará a roja",
 				"Con la flecha verde, avanzar si la vía esta despejada en la dirección de la flecha y si está en el carril adecuado para hacerlo"
 			],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -992,8 +992,8 @@
 				"Detenerse y esperar a que el inspector se retire",
 				"Continuar conduciendo normalmente sin prestar atención"
 			],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -1101,8 +1101,8 @@
 				"Acelerar para bajar más rápido",
 				"Poner el vehículo en punto muerto"
 			],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -1117,7 +1117,7 @@
 			],
 			"streak": false,
 			"correct_answer": 0,
-			"incorrect_answer": 0
+			"incorrect_answer": 1
 		},
 		{
 			"id": "d9e0f16756g2",
@@ -1128,8 +1128,8 @@
 				"Solo durante el día",
 				"Solo en zonas rurales"
 			],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -1181,8 +1181,8 @@
 				"Por la acera",
 				"En cualquier parte de la vía"
 			],
-			"streak": false,
-			"correct_answer": 0,
+			"streak": true,
+			"correct_answer": 1,
 			"incorrect_answer": 0
 		},
 		{
@@ -1614,5 +1614,12 @@
 			"incorrect_answer": 0
 		}
 	],
-	"practice_sessions": []
+	"practice_sessions": [
+		{
+			"id": "c7nx22syoia5wzsbyqgxb8",
+			"date": "2024-07-30T08:30:52.843Z",
+			"correct_answers": 31,
+			"incorrect_answers": 2
+		}
+	]
 }
