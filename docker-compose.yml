@@ -1,9 +1,15 @@
 version: '3'
 services:
   json-server:
-    build: .
+    build:
+      dockerfile_inline: |
+        FROM node:18
+        WORKDIR /app
+        RUN npm install -g json-server
     ports:
       - '3000:3000'
+    volumes:
+      - ./:/app/
     command: npm run json-server
 
   vite-app:
