@@ -10,13 +10,13 @@ services:
       - '3000:3000'
     volumes:
       - ./:/app/
-    command: npm run json-server
+    command: npx json-server --watch db.json
 
   vite-app:
-    build: ./client
+    build: .
     ports:
       - '5173:5173'
     command: npm run dev
     volumes:
-      - ./client:/app
+      - ./:/app
       - /app/node_modules
