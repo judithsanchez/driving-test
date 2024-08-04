@@ -4,14 +4,10 @@ WORKDIR /app
 
 COPY package*.json ./
 RUN npm install
-RUN npm install -g json-server
 
-COPY db.json /app/db.json
 COPY . .
 
-EXPOSE 3000
+EXPOSE 5173
 
-RUN chown -R node:node /app
-USER node
+CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
 
-CMD ["npm", "run", "json-server", "--", "--host", "0.0.0.0"]
